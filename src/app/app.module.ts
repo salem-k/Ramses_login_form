@@ -4,7 +4,7 @@ import { AngularFireAuthModule } from '@angular/fire/compat/auth';
 import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import * as firebase from 'firebase/app';
-import { AppComponent } from './app.component';
+import { AppComponent, WindowRefService } from './app.component';
 firebase.initializeApp({
   apiKey: "AIzaSyCjmitFPMgTfJDFE3b3PrHhsN8aRJGjQv8",
   authDomain: "ramses-app-dcbaf.firebaseapp.com",
@@ -32,7 +32,7 @@ firebase.initializeApp({
     }),
     AngularFireAuthModule,
   ],
-  providers: [],
+  providers: [WindowRefService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

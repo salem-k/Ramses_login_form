@@ -1,3 +1,4 @@
+<div class="container">
 <div class="icons">
   <img src="assets/login-icon-1.png" class="icon1" *ngIf="login1" />
   <img src="assets/login-icon-2.png" class="icon2" *ngIf="login2" />
@@ -10,21 +11,27 @@
 <div class="login1" *ngIf="login1">
   
   <div class="form-group">
-    <input [(ngModel)]="phone_number" class="form-field" />
+    <input [(ngModel)]="phone_number" type="number" class="form-field" />
+
   </div>
 
 </div>
 <div *ngIf="login1">
-  <button (click)="signup()">SIGN UP</button>
+  <div class="form-group">
+    <button (click)="signup()" class="form-field">SIGN UP</button>
+  </div>
 </div>
 
 
 <div class="login2" *ngIf="login2">
   <div class="form-group">
-    <input [(ngModel)]="verif_code" type="text" class="form-field" />
+    <input [(ngModel)]="verif_code" type="number" class="form-field" />
   </div>
-  
+</div>
+<div *ngIf="login2">
   <div class="form-group">
+    
     <button (click)="verifyLoginCode()" class="form-field">Verif code</button>
   </div>
+</div>
 </div>
