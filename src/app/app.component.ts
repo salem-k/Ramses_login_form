@@ -38,7 +38,7 @@ export class AppComponent implements OnInit{
 
   title = 'loginByPhone';
   windowRef:any
-  phone_number:any = "+201550426690"
+  phone_number:any
   verif_code:any
   login1:any=true
   login2:any=false
