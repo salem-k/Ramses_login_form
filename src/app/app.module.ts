@@ -6,13 +6,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import * as firebase from 'firebase/app';
 import { AppComponent, WindowRefService } from './app.component';
 firebase.initializeApp({
-  apiKey: "AIzaSyCjmitFPMgTfJDFE3b3PrHhsN8aRJGjQv8",
-  authDomain: "ramses-app-dcbaf.firebaseapp.com",
-  databaseURL: "https://ramses-app-dcbaf-default-rtdb.firebaseio.com",
-  projectId: "ramses-app-dcbaf",
-  storageBucket: "ramses-app-dcbaf.appspot.com",
-  messagingSenderId: "97452501808",
-  appId: "1:97452501808:web:598535ac61edf2d55936f5"
+  apiKey: "AIzaSyCQTyA-aQz4c4a4aApygu3Cj9A4FKuCu7w",
+  authDomain: "junior-quiz-67945.firebaseapp.com",
+  databaseURL: "https://junior-quiz-67945-default-rtdb.firebaseio.com",
+  projectId: "junior-quiz-67945",
+  storageBucket: "junior-quiz-67945.appspot.com",
+  messagingSenderId: "726387154905",
+  appId: "1:726387154905:web:d97a2eb98a2393b97403c8",
+  measurementId: "G-MRS6YBMJZ4"
 })
 @NgModule({
   declarations: [
@@ -22,13 +23,14 @@ firebase.initializeApp({
     BrowserModule,
     FormsModule,
     AngularFireModule.initializeApp({
-      apiKey: "AIzaSyCjmitFPMgTfJDFE3b3PrHhsN8aRJGjQv8",
-      authDomain: "ramses-app-dcbaf.firebaseapp.com",
-      databaseURL: "https://ramses-app-dcbaf-default-rtdb.firebaseio.com",
-      projectId: "ramses-app-dcbaf",
-      storageBucket: "ramses-app-dcbaf.appspot.com",
-      messagingSenderId: "97452501808",
-      appId: "1:97452501808:web:598535ac61edf2d55936f5"
+      apiKey: "AIzaSyCQTyA-aQz4c4a4aApygu3Cj9A4FKuCu7w",
+      authDomain: "junior-quiz-67945.firebaseapp.com",
+      databaseURL: "https://junior-quiz-67945-default-rtdb.firebaseio.com",
+      projectId: "junior-quiz-67945",
+      storageBucket: "junior-quiz-67945.appspot.com",
+      messagingSenderId: "726387154905",
+      appId: "1:726387154905:web:d97a2eb98a2393b97403c8",
+      measurementId: "G-MRS6YBMJZ4"
     }),
     AngularFireAuthModule,
   ],
